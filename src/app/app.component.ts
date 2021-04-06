@@ -8,7 +8,7 @@ import {Coordinate} from './coordinate';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  image = '../assets/minions.jpg';
+  image = 'https://images4.alphacoders.com/601/601832.jpg';
   coordinates: Coordinate[] = [
     {
       name: 'Tim',
@@ -16,7 +16,7 @@ export class AppComponent {
       y: 230,
       width: 100,
       height: 270,
-      url: '../assets/tim.jpg'
+      url: 'https://cjmart.jp/en/upload/save_image/0134_190824_mp4otl_y_3.jpg'
     },
     {
       name: 'Bob',
@@ -24,7 +24,7 @@ export class AppComponent {
       y: 300,
       width: 100,
       height: 200,
-      url: '../assets/bob.jpg'
+      url: 'https://cjmart.jp/en/upload/save_image/0126_190824_mp4otl_y_3.jpg'
     },
     {
       name: 'Stugart',
@@ -32,7 +32,7 @@ export class AppComponent {
       y: 270,
       width: 100,
       height: 230,
-      url: '../assets/stuart.jpg'
+      url: 'https://cjmart.jp/en/upload/save_image/0130_190824_mp4otl_y_3.jpg'
     }
   ];
 
