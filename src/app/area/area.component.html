@@ -1,0 +1,11 @@
+<div>
+  <img [src]="src" width="800" height="600">
+  <div class="area" [ngStyle]="getCoordinateStyle(coordinate)"
+       [popover]="contentTemplate" [popoverContext]="coordinate" outsideClick="true"
+       *ngFor="let coordinate of coordinates" (click)="onAreaClick(coordinate)">
+  </div>
+</div>
+<ng-template #contentTemplate let-name="name" let-url="url">
+  <h2> {{name}}</h2>
+  <img [src]="url" width="200" height="200">
+</ng-template>
